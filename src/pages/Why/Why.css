@@ -1,0 +1,19 @@
+#ourmission{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: brown;
+}
+
+#ourvalues{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    background-color: #052A49;
+    
+}
+
+@media (max-width: 768px) {
+    #ourvalues{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    #ourmission{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}

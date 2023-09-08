@@ -1,0 +1,95 @@
+.containerServices {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .servicesContainer {
+    width: 100%;
+  }
+
+  .itemsWrap {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 2fr));
+    row-gap: 0.5rem;
+    column-gap: 3rem;
+  }
+
+  .items {
+    --tw-bg-opacity: 1;
+    background-color: #052A49
+      /* rgb(5 42 73 / var(--tw-bg-opacity)) */
+    ;
+
+    --tw-text-opacity: 1;
+    color: white
+      /* rgb(255 255 255 / var(--tw-text-opacity)) */
+    ;
+    font-weight: bolder;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --tw-shadow: 8px 4px 3px 1px #718096;
+    --tw-shadow-colored: 8px 4px 3px 1px var(--tw-shadow-color);
+    box-shadow: rgba(0, 0, 0, 0.337) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5%;
+  }
+
+  .items:hover {
+    background: white;
+    color: black;
+    border: 1px black;
+    --tw-shadow: 8px 4px 3px 1px #718096;
+    --tw-shadow-colored: 8px 4px 3px 1px var(--tw-shadow-color);
+    box-shadow: rgb(0, 0, 0) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+
+  @media (max-width:768px) {
+    br {
+      display: none;
+    }
+
+    .itemsWrap {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      height: 50%;
+      width: 100%;
+      row-gap: 0px;
+    }
+
+    .servicesContainer {
+      width: 100%;
+    }
+
+    .containerServices {
+      width: 100%;
+    }
+
+    .items {
+      height: 90%;
+      font-size: x-small;
+      align-self: center;
+      justify-self: center;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background-color: #052a49;
+      color: rgb(255, 255, 255);
+      --tw-shadow: 0px 0px 0px 0px #71809600;
+      --tw-shadow-colored: 0px 0px 0px 0px var(--tw-shadow-color);
+      box-shadow: rgba(0, 0, 0, 0.337) 0px 0px 0px, rgba(0, 0, 0, 0.23) 0px 0px 0px;
+      margin: 4%;
+    }
+
+    .items:hover {
+      background: white;
+      border: 0px rgba(255, 255, 255, 0);
+      --tw-shadow: 0px 0px 0px 0px #71809600;
+      --tw-shadow-colored: 0px 0px 0px 0px var(--tw-shadow-color);
+      box-shadow: rgb(0, 0, 0) 0px 0px 0px, rgba(0, 0, 0, 0.23) 0px 0px 0px;
+    }
+  }

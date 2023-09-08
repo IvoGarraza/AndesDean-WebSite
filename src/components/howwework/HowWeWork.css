@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+body{
+    background-color: #eeeeea;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+.container{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2%;
+    grid-row-gap: 3%;
+}
+.card{
+    background-color: #A22224;
+    
+    background-size: cover;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    margin: 2px;
+    font-size:x-large;
+}
+.card h3{
+    color: rgb(255, 255, 255);
+    z-index: 10;
+    width: 20%;
+    font-weight:900;
+    font-size: xx-large;
+    height: 20%;
+    margin-bottom: 0;
+    display: flex;
+   justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    text-shadow: rgb(4, 4, 4) 1px 0 10px;
+}
+.card p{
+    font-size: small;
+    height: max-content;
+    width: 100%;
+    height: 20rem;
+    visibility: hidden;
+    color: white;
+    font-weight: normal;
+    
+}
+
+.card:hover p{
+    visibility: visible;
+}
+.card:hover h3{
+    visibility: hidden;
+    position: absolute;
+    
+}
+.containerDescription{
+    background-color: #052A49;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    z-index: 5; 
+          
+    
+}
+.containerDescription p{
+    background-color: #052A49;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    height: 100%; 
+    border-radius: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.containerDescription:hover{
+    -webkit-animation: flip-vertical-bck 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate-reverse both;
+    animation: flip-vertical-bck 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate-reverse both;
+}
+
+@-webkit-keyframes flip-vertical-bck {
+0% {
+-webkit-transform: translateZ(0) rotateY(0);
+    transform: translateZ(0) rotateY(0);
+}
+100% {
+-webkit-transform: translateZ(-260px) rotateY(-180deg);
+    transform: translateZ(-260px) rotateY(-180deg);
+}
+}
+@keyframes flip-vertical-bck {
+0% {
+-webkit-transform: translateZ(0) rotateY(0);
+    transform: translateZ(0) rotateY(0);
+}
+100% {
+-webkit-transform: translateZ(-260px) rotateY(-180deg);
+    transform: translateZ(-260px) rotateY(-180deg);
+}
+}
+@media (max-width:768px) {
+.card{
+    height: 8rem;
+}
+.card h3{
+    font-size: small;
+    height: max-content;
+}
+.card p{
+    font-size: 2%;
+
+}
+}
