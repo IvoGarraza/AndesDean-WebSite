@@ -5,7 +5,7 @@ import Content from '../../components/content/Content'
 
 const Home = () => {
   return (
-    <div className='scroll-smooth'>
+    <div>
         <Hero></Hero>
         <Content></Content>
         {/* <Footer></Footer> */}

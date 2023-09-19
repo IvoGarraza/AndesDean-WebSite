@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div
-      className={`w-full scroll-smooth h-[80vh] text-white font-bold flex object-cover bg-center grayscale-0 bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]`}
+      className={`w-full h-[80vh] text-white font-bold flex object-cover bg-center grayscale-0 bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]`}
       id="hero"
     >
       <div className="w-full h-full items-center justify-center flex flex-col">

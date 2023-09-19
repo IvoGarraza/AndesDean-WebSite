@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import bulletPoint from "../../assets/images/Recursos/PNG/logo-sin fondo.png";
 import "./Why.css";
 import {motion, useInView} from "framer-motion"
+import gif from '../../assets/images/Imagenes/gif.gif'
 
 
 const squareVariants = {
@@ -20,11 +21,12 @@ const Why = () => {
   return (
     <div className="flex flex-col items-center">
       <div className="h-[50vh] w-full flex justify-center items-center  object-cover bg-center">
-        <div className="w-full h-full flex items-center justify-center ">
-          <h3 className="text-4xl font-bold text-primary">Why Andes?</h3>
+        <div className="w-full h-full bg-[rgba(0,0,0,0.5)] flex items-center justify-center overflow-hidden relative">
+          <img src={gif} className="w-full absolute -z-10 "></img>
+          <h3 className="text-4xl font-bold text-[#fff]">Why Andes?</h3>
         </div>
       </div>
-      <div className="text-justify px-16 mb-12">
+      <div className="text-justify px-16 py-12 mb-12">
         <span className="font-semibold">
           Time Zone Advantage: Our remote team operates within a similar time
           zone as our clients, enabling seamless communication and collaboration

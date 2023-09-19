@@ -8,11 +8,13 @@ import blanconegro from '../../assets/images/blanconegro.png'
 const WhoWeAre = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex items-center h-[50vh] w-full bg-center object-cover " style={{backgroundImage:`url(${blanconegro})`}}>
-        {/* <img src={fondo} className="grayscale"/> */}
-        <h3 className="text-primary text-5xl font-extrabold w-full text-center  px-6">
-          Meet the team behind Andes Dean Engineering
-        </h3>
+      <div className="flex items-center h-[50vh] w-full object-cover ">
+        <div className="w-full h-full relative overflow-hidden flex items-center ">
+          <img src={fondo} className="absolute w-full -top-30 grayscale -z-10"></img>
+          <h3 className="text-primary text-5xl font-extrabold w-full text-center  px-6">
+            Meet the team behind Andes Dean Engineering
+          </h3>
+        </div>
       </div>
       <div className="flex sm:flex-row flex-col items-center justify-center my-8">
         <div className="py-6 sm:w-[40%] px-6 sm:px-0">

@@ -97,7 +97,7 @@ const HowWeWork = () => {
       <div className="col-span-1 hover:col-span-2 transition ease-in bg-primary rounded-lg">5</div>
       <div className="col-span-1 hover:col-span-2 transition ease-in bg-primary rounded-lg">6</div>
     </div> */
-    <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+    <div /* className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5" */ className="grid grid-row-1 grid-cols-7 h-96 gap-4">
     {exploreWorlds.map((world, index) => (
       <HowWeWorkCard
         key={world.id}
@@ -106,6 +106,7 @@ const HowWeWork = () => {
         active={active}
         handleClick={setActive}
       />
+
     ))}
   </div>
   );
