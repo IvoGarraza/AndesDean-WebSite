@@ -1,10 +1,12 @@
 import React from "react";
 import portada from "../../assets/images/Imagenes/portada-sin-editar.jpg";
 import { Link } from "react-router-dom";
+import './Hero.css'
+
 const Hero = () => {
   return (
     <div
-      className={`w-full h-[80vh] text-white font-bold flex object-cover bg-center grayscale-0 bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]`}
+      className={`relative w-full h-[80vh] text-white font-bold flex object-cover bg-center grayscale-0 bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]`}
       id="hero"
     >
       <div className="w-full h-full items-center justify-center flex flex-col">
@@ -36,8 +38,10 @@ const Hero = () => {
             Learn more
           </a>
         </div>
+        <div className="shape absolute bottom-0 left-0 w-80 h-72 bg-[#a22224b7]"></div>
+        <div className="shape2 absolute top-0 right-0 w-80 h-72 bg-[#052a49ce]"></div>
       </div>
-      <div class='shape'></div>
+      {/* <div class='shape'></div> */}
     </div>
   );
 };

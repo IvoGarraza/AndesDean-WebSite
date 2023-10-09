@@ -13,7 +13,7 @@ const GablesRiversOaks = () => {
         <br />
         <br />
         <div className="text-justify">
-          <span className="">
+          <span className=" font-medium">
             Gables River Oaks is a residential building in Houston, Texas.
             represented CorbisGlobal as the engineering team of WSP in Houston.
             <br />
@@ -28,7 +28,7 @@ const GablesRiversOaks = () => {
             (Project developed on behalf CorbisGlobal)
           </span>
         </div>
-        <div>
+        <div className="mt-4">
           <Shape
             location="Houston, Texas, US"
             period="2011"

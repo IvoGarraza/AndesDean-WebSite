@@ -1,4 +1,4 @@
-.arrow {
+/* .arrow {
     box-sizing: border-box;
     height: 5vw;
     width: 5vw;
@@ -30,10 +30,12 @@
     background-image: url("../../assets/images/Imagenes/portada-sin-editar.jpg");
     object-fit: contain;  
   }
-
+ */
   .shape{
-    clip-path: polygon(0 0, 0% 100%, 100% 100%);
-    background-color: red;
-    height: 20px;
-    width: max-content;
+    clip-path: polygon(0 100%, 100% 100%, 0 0);
+   /*  height: 20px; */
+  }
+
+  .shape2{
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
   }

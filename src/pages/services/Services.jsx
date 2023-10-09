@@ -18,7 +18,7 @@ const Services = () => {
       <div className="flex items-center justify-center h-[50vh] object-cover bg-center w-full" /* style={{backgroundImage:`url(${servicios})`}} */>
         <div className="w-full h-full bg-[rgba(0,0,0,0.5)] flex items-center justify-center relative overflow-hidden">
           <img src={servicios} className="absolute -z-10 w-full"></img>
-          <h3 className="font-bold text-[#fff] text-4xl">Services</h3>
+          <h3 className="font-bold text-[#fff] text-4xl">SERVICES</h3>
         </div>
       </div>
       <div className="px-6 text-center mt-12">

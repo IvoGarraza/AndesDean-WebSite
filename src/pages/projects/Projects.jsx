@@ -56,7 +56,7 @@ const Projects = () => {
         ></video>
         <div className="absolute bg-[rgba(0,0,0,0.4)] -z-10 w-full h-full"></div>
         <div>
-          <h3 className="font-bold text-[#fff] text-4xl my-4">Projects</h3>
+          <h3 className="font-bold text-[#fff] text-4xl my-4">PROJECTS</h3>
         </div>
         <div className="px-6 text-center">
           <span className="font-semibold text-[#fff]">
@@ -95,8 +95,8 @@ const Projects = () => {
             className="group bg-primary h-64 rounded-lg bg-center object-cover"
             style={{ backgroundImage: `url(${project.img})` }}
           >
-            <div className="bg-[rgba(0,0,0,0.5)] hover:bg-[rgba(0,0,0,0.0)] w-full h-full rounded-xl flex flex-col justify-end">
-              <div className="bg-[#fff] flex flex-col rounded-b-lg sm:h-1/3 sm:group-hover:h-1/2 h-1/2 text-center justify-around items-center text-[#fff] font-bold">
+            <div className="bg-[rgba(0,0,0,0.5)] transition-opacity hover:bg-[rgba(0,0,0,0.0)] w-full h-full rounded-xl flex flex-col justify-end">
+              <div className={`bg-[#fff] flex flex-col rounded-b-lg sm:h-1/3 transition-all sm:group-hover:h-1/2 ${isInView?'h-1/2':'h-1/3'}  text-center justify-around items-center text-[#fff] font-bold`}>
                 <h2 className="text-primary text-2xl">{project.title}</h2>
                 <span className="text-secondary text-xs">{project.type}</span>
                 <button

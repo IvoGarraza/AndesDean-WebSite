@@ -14,7 +14,7 @@ const SunCityMesquite = () => {
 {/*         <br />
         <br /> */}
         <div className="text-justify">
-          <span className="">
+          <span className="font-medium">
             Sun City Mesquite is a 55+ housing community located in Mesquite,
             Nevada, featuring new construction homes developed by Pulte Homes
             and Del Webb.
@@ -30,11 +30,11 @@ const SunCityMesquite = () => {
             Project developed on behalf of AMP consulting.
           </span>
         </div>
-        <div className="">
+        <div className="mt-4">
           <Shape
-            location="Mezquite, Nevada, US"
-            period="2007"
-            team="Pulte Homes Nevada"
+            location=" Mezquite, Nevada, US"
+            period=" 2007"
+            team=" Pulte Homes Nevada"
           ></Shape>
         </div>
       </div>
