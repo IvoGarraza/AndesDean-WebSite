@@ -11,7 +11,7 @@ import HowWeWorkCard from './HowWeWorkCard'
 const HowWeWork = () => {
   const [active, setActive] = useState('world-1');
   return (
-    <div  className="grid sm:grid-rows-1 sm:grid-cols-7 grid-cols-1 grid-rows-6 sm:h-94 h-72  gap-4">
+    <div  className="grid sm:grid-rows-1 sm:grid-cols-7 grid-flow-row grid-cols-1 grid-rows-6 sm:h-94 h-72  gap-4">
     {exploreWorlds.map((world, index) => (
       <HowWeWorkCard
         key={world.id}
