@@ -5,8 +5,8 @@ import Shape from "../shape/shape";
 
 const CustomHomes = () => {
   return (
-    <div className=" flex sm:flex-row flex-col px-6">
-      <div className="sm:w-1/2 text-xl  justify-around">
+    <div className=" flex sm:flex-row flex-col  px-6">
+      <div className="sm:w-1/2 text-xl p-2 justify-between">
         <div>
           <h3 className="text-5xl font-bold text-primary">Custom Homes</h3>
           <span className="font-bold text-2xl text-secondary">
@@ -14,7 +14,7 @@ const CustomHomes = () => {
           </span>
         </div>
         <br />
-        <span>
+        <span className="font-medium">
           These projects encompass the{" "}
           <span className="font-bold">
             construction of custom residential homes
@@ -45,7 +45,7 @@ const CustomHomes = () => {
             </div>
           </div>
           <br />
-          <span>
+          <span className="font-medium">
             Software utilized: Enercalc and Forte Web
             <br />
             Design Code adhered to: 2018 IBC.
@@ -54,11 +54,13 @@ const CustomHomes = () => {
             engineers).
           </span>
         </div>
-        <Shape
-          location="Utah and Wyoming"
-          period="2021"
-          team="Andes Dean and Partners"
-        ></Shape>
+        <div className="mt-4 mr-2">
+          <Shape
+            location="Utah and Wyoming"
+            period="2021"
+            team="Andes Dean and Partners"
+          ></Shape>
+        </div>
       </div>
       <div className="sm:w-1/2 flex justify-center items-center">
         <img src={customHomes1} />

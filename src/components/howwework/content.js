@@ -3,7 +3,7 @@ import how2 from "../../assets/images/howwework2 dos.jpg";
 import how3 from "../../assets/images/howwework3dos.jpg";
 import how4 from "../../assets/images/howwework4dos.jpg";
 import how5 from "../../assets/images/howwework5dos.jpg";
-import how6 from "../../assets/images/howwework6dos.jpg";
+import how6 from "../../assets/images/howwework6tres.jpeg";
 
 export const exploreWorlds = [
     {

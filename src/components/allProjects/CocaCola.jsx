@@ -16,11 +16,10 @@ const CocaCola = () => {
           PROJECTS & CONTRUCTION INSPECTIONS
         </span>
         <br />
-        <span>
+        <span className="font-medium">
           Warehouse extension of finished product for the Coca Cola Company in
           Córdoba, Argentina (EDASA) with a total covered area of 10,000m2.
         </span>
-        <br />
         <br />
         <div>
           <span>The of work includes:</span>
@@ -55,6 +54,7 @@ const CocaCola = () => {
             </div>
           </div>
           <br />
+          <br/>
         </div>
         <Shape
           location="Córdoba, Argentina"

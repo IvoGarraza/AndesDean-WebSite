@@ -1,6 +1,8 @@
 import React from "react";
 import portada from "../../assets/images/Imagenes/portada-sin-editar.jpg";
 import { Link } from "react-router-dom";
+import './Hero.css'
+
 const Hero = () => {
   return (
     ///bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]
@@ -39,7 +41,9 @@ const Hero = () => {
           </a>
         </div>
       </div>
-      <div class='shape'></div>
+        <div className="shape absolute bottom-0 left-0 w-1/3 h-full bg-[#a22224b7] z-0"></div>
+        <div className="shape2 absolute top-0 right-0 w-96 h-full bg-[#052a49ce] z-0"></div>
+      {/* <div class='shape'></div> */}
     </div>
   );
 };

@@ -18,7 +18,7 @@ const Palais = () => {
         <span className="font-bold text-secondary">
           STRUCTURAL CALCULATIONS
         </span>
-        <p>
+        <p className="font-medium">
           This project comprises{" "}
           <span className="font-bold">
             four three-story residential buildings.
@@ -49,7 +49,7 @@ const Palais = () => {
           </div>
         </div>
         <br />
-        <span>
+        <span className="font-medium">
           Software employed: Enercalc and Forte Web
           <br />
           <br />
