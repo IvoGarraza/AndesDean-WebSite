@@ -41,8 +41,8 @@ const Hero = () => {
           </a>
         </div>
       </div>
-        <div className="shape absolute bottom-0 left-0 w-1/3 h-full bg-[#a22224b7] z-0"></div>
-        <div className="shape2 absolute top-0 right-0 w-96 h-full bg-[#052a49ce] z-0"></div>
+        <div className="shape absolute bottom-0 left-0 w-1/3 h-full bg-[#a22224d8] z-0"></div>
+        <div className="shape2 absolute top-0 right-0 w-96 h-full bg-[#052a49d8] z-0"></div>
       {/* <div class='shape'></div> */}
     </div>
   );

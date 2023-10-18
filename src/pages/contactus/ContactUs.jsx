@@ -20,15 +20,15 @@ const ContactUs = () => {
           assist you.{" "}
         </span>
       </div>
-      <div className="flex sm:flex-row flex-col-reverse my-2 items-center relative p-4">
-        <img className="absolute -z-10" src={mapa}></img>
+      <div className="flex sm:flex-row flex-col-reverse my-2 items-center relative p-4 pb-12">
+        <img className="absolute -z-10 p-12" src={mapa}></img>
         <div className="w-full h-full flex flex-row items-center rounded-md bg-[rgba(118,118,118,0.2)] p-6">
           <div className="sm:w-1/2 w-full flex flex-col p-12 ">
             <div className="flex sm:flex-col flex-col justify-around items-center w-full">
-              <div className="flex flex-row items-center justify-around w-full">
+              <div className="flex flex-row items-center justify-around w-1/3 text-xl">
                 <img className="w-16 border-black" src={arg}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
-                  <div className="flex flex-row items-center">
+                  <div className="flex flex-row items-center justify-center ">
                     <img src={Location} />
                     <span>Argentina</span>
                   </div>
@@ -38,7 +38,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around w-full">
+              <div className="flex flex-row items-center justify-around w-1/3">
                 <img className="w-16" src={usa}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
@@ -51,7 +51,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around w-full">
+              <div className="flex flex-row items-center justify-around w-1/3">
                 <img className="w-16" src={italy}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
