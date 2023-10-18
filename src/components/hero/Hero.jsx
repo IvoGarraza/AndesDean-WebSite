@@ -3,10 +3,12 @@ import portada from "../../assets/images/Imagenes/portada-sin-editar.jpg";
 import { Link } from "react-router-dom";
 const Hero = () => {
   return (
+    ///bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]
     <div
-      className={`w-full h-[80vh] text-white font-bold flex object-cover bg-center grayscale-0 bg-[url('https://www.np5.eu/resources/uploads/technologijos/gamyba-surenkami-namai-light-steel-frame-surenkami-namai-np5-5.jpg')]`}
+      className={`w-full relative h-[80vh] overflow-hidden text-white font-bold flex object-cover bg-center grayscale-0 `}
       id="hero"
     >
+      <img src={portada} className="absolute -z-10 w-full -top-40 grayscale"></img>
       <div className="w-full h-full items-center justify-center flex flex-col">
         <div className="flex flex-col items-center justify-center w-full text-primary ">
           <h3 className="text-black font-extrabold font-xl text-justify sm:text-4xl text-2xl">

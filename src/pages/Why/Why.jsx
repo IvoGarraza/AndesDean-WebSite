@@ -23,7 +23,7 @@ const Why = () => {
       <div className="h-[50vh] w-full flex justify-center items-center  object-cover bg-center">
         <div className="w-full h-full bg-[rgba(0,0,0,0.5)] flex items-center justify-center overflow-hidden relative">
           <img src={gif} className="w-full absolute -z-10 "></img>
-          <h3 className="text-4xl font-bold text-[#fff]">Why Andes?</h3>
+          <h3 className="text-4xl font-bold text-[#fff]">Why Andes</h3>
         </div>
       </div>
       <div className="text-justify px-16 py-12 mb-12">
