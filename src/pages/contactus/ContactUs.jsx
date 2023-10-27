@@ -10,22 +10,23 @@ import Phone from "../../assets/headset.png";
 const ContactUs = () => {
   return (
     <div>
-      <div className="sm:h-44 h-60 flex items-center justify-end flex-col mb-8">
-        <h2 class=" text-gray-500 mb-2 text-4xl text-center font-bold text-primary ">
-          CONTACT US
-        </h2>
-        <span className="font-bold px-12 text-center text-secondary">
-          Let's discuss your project needs and create a tailored proposal. Reach
-          out to our team of Engineers at Andes Dean to explore how we can best
-          assist you.{" "}
-        </span>
-      </div>
       <div className="flex sm:flex-row flex-col-reverse my-2 items-center relative p-4">
         <img className="absolute -z-10" src={mapa}></img>
-        <div className="w-full h-full flex flex-row items-center rounded-md bg-[rgba(118,118,118,0.2)] p-6">
-          <div className="sm:w-1/2 w-full flex flex-col p-12 ">
-            <div className="flex sm:flex-col flex-col justify-around items-center w-full">
-              <div className="flex flex-row items-center justify-around w-full">
+
+        <div className="w-full h-full flex flex-col items-center rounded-md bg-[rgba(118,118,118,0.26)] p-6">
+          <div className="sm:h-44 h-60 flex items-center justify-end flex-col mb-8">
+            <h2 class=" text-gray-500 mb-2 text-4xl text-center font-bold text-primary ">
+              CONTACT US
+            </h2>
+            <span className="font-bold px-12 text-center text-secondary">
+              Let's discuss your project needs and create a tailored proposal.
+              Reach out to our team of Engineers at Andes Dean to explore how we
+              can best assist you.{" "}
+            </span>
+          </div>
+          <div className=" w-full flex flex-col items-center p-12 pt-0 ">
+            <div className="flex sm:flex-row flex-col justify-center items-center w-full text-[#fff] ">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center ">
                 <img className="w-16 border-black" src={arg}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
@@ -38,7 +39,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around w-full">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center ">
                 <img className="w-16" src={usa}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
@@ -51,7 +52,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around w-full">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 mx-0 sm:py-2 py-1 items-center justify-center ">
                 <img className="w-16" src={italy}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
@@ -66,10 +67,10 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div class="p-4 sm:w-1/2 w-full flex flex-col ">
-            <h3 className="text-center font-bold mb-4">REQUEST A PROPOSAL</h3>
-            <form id="contact_form" className="flex flex-col">
-              <div class="flex flex-col mb-5">
+          <h3 className="text-center font-bold mb-4 text-primary text-4xl">REQUEST A PROPOSAL</h3>
+          <div class="p-4 sm:w-full w-full items-center flex flex-col ">
+            <form id="contact_form" className="flex sm:flex-row flex-col w-full justify-between p-2">
+              <div class="flex flex-col sm:w-1/2 w-full">
                 <div class="mb-2">
                   <label for="name_field" class="block text-sm font-medium">
                     Your Name:
@@ -115,25 +116,25 @@ const ContactUs = () => {
                   />
                 </div>
               </div>
-              <div class="mb-4">
+              <div class=" sm:w-1/2 w-full h-full sm:p-2 pt-0">
                 <label for="message_field" class="block text-sm font-medium">
                   Message:
                 </label>
                 <textarea
-                  class="w-full rounded border-gray-400"
+                  class="w-full h-full rounded border-gray-400"
                   name="message"
                   id="message_field"
                   rows="6"
                 ></textarea>
               </div>
 
+            </form>
               <button
                 type="submit"
-                class="bg-primary rounded-md py-2 text-[#fff] font-semibold"
+                class="bg-primary w-1/3 rounded-md py-2 text-[#fff] font-semibold"
               >
                 Send
               </button>
-            </form>
           </div>
         </div>
       </div>

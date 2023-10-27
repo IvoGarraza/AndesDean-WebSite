@@ -40,7 +40,7 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`flex w-full justify-between fixed ${navbarColor}  sm:py-2 z-30`}
+      className={`flex w-full justify-between fixed ${navbarColor} top-0 sm:py-2 z-30`}
     >
       <div className="ml-2 ">
         <img className='sm:w-64 w-1/2 my-2' src={logo} />
