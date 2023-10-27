@@ -29,7 +29,7 @@ const ContactUs = () => {
               <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center ">
                 <img className="w-16 border-black" src={arg}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
-                  <div className="flex flex-row items-center">
+                  <div className="flex flex-row items-center justify-center ">
                     <img src={Location} />
                     <span>Argentina</span>
                   </div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center ">
+              <div className="flex flex-row items-center justify-around w-full">
                 <img className="w-16" src={usa}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
@@ -52,7 +52,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 mx-0 sm:py-2 py-1 items-center justify-center ">
+              <div className="flex flex-row items-center justify-around w-full">
                 <img className="w-16" src={italy}></img>
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center">
