@@ -83,7 +83,7 @@ const Projects = () => {
           </span>
         </div>
       </div>
-      <div className="px-6">
+      <div className="px-6 h-96">
         <HowWeWork></HowWeWork>
       </div>
       <div className="w-full flex items-center justify-center">

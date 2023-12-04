@@ -27,7 +27,7 @@ const ContactUs = () => {
           <div className=" w-full flex flex-col items-center p-12 pt-0 ">
             <div className="flex sm:flex-row flex-col justify-center items-center w-full text-[#fff] ">
               <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center ">
-                <img className="w-16 border-black" src={arg}></img>
+                {/* <img className="w-16 border-black" src={arg}></img> */}
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center justify-center ">
                     <img src={Location} />
@@ -35,33 +35,33 @@ const ContactUs = () => {
                   </div>
                   <div className="flex flex-row items-center">
                     <img src={Phone} />
-                    <span>+5493513886585</span>
+                    <a href="tel:1234567890">+5493513886585</a>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around w-full">
-                <img className="w-16" src={usa}></img>
-                <div className="flex flex-col font-semibold text-center text-xs">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center">
+                {/* <img className="w-16" src={usa}></img> */}
+                <div className="flex flex-col font-semibold text-center items-center text-xs">
                   <div className="flex flex-row items-center">
                     <img src={Location} />
                     <span>United States</span>
                   </div>
                   <div className="flex flex-row items-center">
                     <img src={Phone} />
-                    <span>+14078152416</span>
+                    <a href="tel:1234567890">+14078152416</a>
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-around w-full">
-                <img className="w-16" src={italy}></img>
-                <div className="flex flex-col font-semibold text-center text-xs">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center">
+                {/* <img className="w-16" src={italy}></img> */}
+                <div className="flex flex-col font-semibold text-center items-center text-xs">
                   <div className="flex flex-row items-center">
                     <img src={Location} />
                     <span>Italy</span>
                   </div>
                   <div className="flex flex-row items-center">
                     <img src={Phone} />
-                    <span>+393463578343</span>
+                    <a href="tel:1234567890">+393463578343</a>
                   </div>
                 </div>
               </div>

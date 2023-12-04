@@ -1,12 +1,13 @@
 import React from "react";
 import "./Team.css";
+import diego2 from '../../assets/images/Imagenes/diego2.jpeg'
 
 const Team = () => {
   return (
-      <div class="container w-full">
+      <div class="container">
         <div class="wrap my-2 flex flex-row w-full justify-between h-1/5">
-          <div class="rotate-90 text-primary flex items-center justify-center w-1/6 h-full">
-            <span class="font-bold sm:text-lg h-full text-xs flex text-center text-primary items-center justify-center">ROCKIES TEAM<br/>Usa Projects</span>
+          <div class="rotate-90 text-primary flex items-center justify-center w-1/6 h-100">
+            <span class="font-bold sm:text-sm h-100 text-xs flex text-center text-primary items-center justify-center">ROCKIES TEAM<br/>Usa Projects</span>
           </div>
           <div class="colorbar w-[10px] bg-primary"></div>
           <div class="flex flex-row justify-around w-4/5">
@@ -20,13 +21,13 @@ const Team = () => {
             />
             <img
               className="w-1/3"
-              src="https://ca.slack-edge.com/T42HA9JJF-U5F058PNK-663da6f86169-512"
+              src={diego2}
             />
           </div>
         </div>
         <div class="wrap2 my-2 flex flex-row w-full justify-between h-2/5">
-          <div class="rotate-90 text-primary flex w-1/6 h-full">
-            <span class="font-bold sm:text-lg text-xs flex flex-col text-center text-secondary items-center justify-center h-full">ANDES TEAM<br/> Argentina Projects</span>
+          <div class="rotate-90 text-primary flex w-1/6 h-100">
+            <span class="font-bold sm:text-sm text-xs flex flex-col text-center text-secondary items-center justify-center h-full w-full">ANDES TEAM<br/> Argentina Projects</span>
           </div>
           <div class="colorbar2 w-[10px] bg-secondary"></div>
           <div class="wrapImages w-4/5">
@@ -44,7 +45,7 @@ const Team = () => {
         </div>
         <div class="wrap my-2 w-full flex flex-row justify-between h-1/5">
           <div class="rotate-90 text-primary flex w-1/6">
-            <span class="font-bold sm:text-lg text-xs flex flex-col text-center items-center justify-center ">
+            <span class="font-bold sm:text-sm text-xs flex flex-col text-center items-center justify-center ">
               OPERATIONS &<br/>
               BUSSINES DEV.
             </span>
@@ -67,7 +68,7 @@ const Team = () => {
         </div>
         <div class="wrap flex flex-row justify-between  h-1/5">
           <div class="rotate-90 text-secondary w-1/6">
-            <span class="font-medium sm:text-lg text-xs mt-10 flex flex-col text-center">
+            <span class="font-medium sm:text-sm text-xs mt-1 flex flex-col text-center">
               Technologies
               <br />
               for the AEC<span className="font-bold">UBICUO</span>

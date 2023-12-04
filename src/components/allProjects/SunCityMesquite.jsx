@@ -5,11 +5,11 @@ import suncity2 from "../../assets/images/Imagenes/suncity1.jpg";
 
 const SunCityMesquite = () => {
   return (
-    <div className="px-6 my-6 flex flex-col sm:flex-row">
+    <div className="px-6 my-6 flex flex-col sm:flex-row text-justify">
       <div className="sm:w-1/2 sm:px-6 flex flex-col justify-around text-xl">
-        <div>
-          <h3 className="font-bold text-5xl text-primary">Sun City Mesquite</h3>
-          <span className="font-bold text-secondary text-2xl">WOOD FRAMING DESIGN</span>
+        <div className="text-center mb-6">
+          <h3 className="font-bold text-5xl text-primary mb-4 text-center">Sun City Mesquite</h3>
+          <span className="font-bold text-secondary text-2xl text-center">WOOD FRAMING DESIGN</span>
         </div>
 {/*         <br />
         <br /> */}

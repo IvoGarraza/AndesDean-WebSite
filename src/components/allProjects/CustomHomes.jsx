@@ -5,11 +5,11 @@ import Shape from "../shape/shape";
 
 const CustomHomes = () => {
   return (
-    <div className=" flex sm:flex-row flex-col  px-6">
+    <div className=" flex sm:flex-row flex-col  px-6 text-justify">
       <div className="sm:w-1/2 text-xl p-2 justify-between">
-        <div>
-          <h3 className="text-5xl font-bold text-primary">Custom Homes</h3>
-          <span className="font-bold text-2xl text-secondary">
+        <div className="text-center">
+          <h3 className="text-5xl font-bold text-primary mb-4 text-center">Custom Homes</h3>
+          <span className="font-bold text-2xl text-secondary text-center">
             STRUCTURAL CALCULATIONS
           </span>
         </div>

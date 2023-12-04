@@ -40,10 +40,10 @@ const Services = () => {
                   <h4>Structural Design</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200,delay:0.100}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Bim Management</h4>
+                  <h4>BIM Management</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.200}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Mep Engineering</h4>
+                  <h4>MEP Engineering</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.300}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
                   <h4>3D Visualization</h4>
@@ -63,7 +63,7 @@ const Services = () => {
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.300}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
                   <h4>
                     Projects and <br />
-                    Techcnical Maganement
+                    Technical Management
                   </h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.400}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
@@ -73,7 +73,7 @@ const Services = () => {
                   </h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.500}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Professional Trainning</h4>
+                  <h4>Professional Training</h4>
                 </motion.div>
               </div>
             </div>

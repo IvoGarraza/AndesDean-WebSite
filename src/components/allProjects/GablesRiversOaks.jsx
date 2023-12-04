@@ -6,8 +6,8 @@ const GablesRiversOaks = () => {
   return (
     <div className="px-6 my-4 flex flex-col sm:flex-row">
       <div className="sm:w-1/2 sm:px-6 text-xl">
-        <h3 className="font-bold text-5xl text-primary">Gables Rivers Oaks</h3>
-        <span className="font-bold text-secondary text-2xl">
+        <h3 className="font-bold text-5xl text-primary mb-4 text-center">Gables Rivers Oaks</h3>
+        <span className="font-bold text-secondary text-2xl text-center">
           BIM MODELING FOR DDs & COORDINATION
         </span>
         <br />

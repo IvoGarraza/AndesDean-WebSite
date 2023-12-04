@@ -6,16 +6,16 @@ import Shape from "../shape/shape";
 
 const Palais = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row py-12 px-6 text-xl">
+    <div className="flex flex-col-reverse sm:flex-row py-12 px-6 text-xl text-justify">
       <div className="sm:px-12  sm:w-1/2 flex flex-col">
         <img className="my-2" src={palais1} />
         <img className="my-2" src={palais2} />
       </div>
       <div className=" my-4 sm:w-1/2 flex flex-col justify-around">
-        <h3 className="font-bold text-5xl text-primary">
+        <h3 className="font-bold text-5xl text-primary mb-4 text-center">
           Palais 550 Townhomes
         </h3>
-        <span className="font-bold text-secondary">
+        <span className="font-bold text-secondary mb-6 text-center">
           STRUCTURAL CALCULATIONS
         </span>
         <p className="font-medium">

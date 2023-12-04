@@ -7,12 +7,12 @@ import Shape from "../shape/shape";
 
 const CocaCola = () => {
   return (
-    <div className="px-6 flex flex-col sm:flex-row">
+    <div className="px-6 flex flex-col sm:flex-row text-justify">
       <div className="sm:w-1/2 text-xl flex flex-col justify-around">
-        <h3 className="text-5xl font-bold text-primary">
+        <h3 className="text-5xl font-bold text-primary mb-4 text-center">
           Coca Cola Company Warehouse Extension
         </h3>
-        <span className="font-bold text-2xl text-secondary">
+        <span className="font-bold text-2xl text-secondary text-center">
           PROJECTS & CONTRUCTION INSPECTIONS
         </span>
         <br />

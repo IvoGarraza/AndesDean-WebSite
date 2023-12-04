@@ -7,11 +7,11 @@ import Shape from '../shape/shape';
 
 const HousingDelParque = () => {
   return (
-    <div className='flex flex-col sm:flex-row-reverse px-6 my-8'>
+    <div className='flex flex-col sm:flex-row-reverse px-6 my-8 text-justify'>
       <div className='sm:w-1/2  flex flex-col justify-around text-xl'>
-        <h3 className='font-bold text-5xl text-primary'>Housing del parque</h3>
-        <span className='font-bold text-secondary text-2xl'>LIGHT STEEL FRAMING</span>
-        <span className='font-medium'>Light Steel Framing has gained popularity as a construction method in Argentina in recent years. The typical project scope includes:</span>
+        <h3 className='font-bold text-5xl text-primary mb-4 text-center'>Housing del parque</h3>
+        <span className='font-bold text-secondary text-2xl mb-6 text-center'>LIGHT STEEL FRAMING</span>
+        <span className='font-medium mb-4'>Light Steel Framing has gained popularity as a construction method in Argentina in recent years. The typical project scope includes:</span>
         <div className="flex flex-col">
           <div className="flex flex-row items-center">
             <img src={bulletPoint} className="w-4 mr-2"></img>

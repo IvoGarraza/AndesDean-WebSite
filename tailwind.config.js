@@ -11,6 +11,13 @@ module.exports = {
         'sans-bold': ['Calibri Bold', 'sans-serif'],
         'sans-bold-italic': ['Calibri Bold Italic', 'sans-serif'],
         OpenSans:['Open Sans']
+      },
+      gridTemplateRows: {
+        // Simple 8 row grid
+        '7': 'repeat(7, minmax(0, 1fr))',
+
+        // Complex site-specific row configuration
+        'layout': '200px minmax(900px, 1fr) 100px',
       }
     },
     colors:{
