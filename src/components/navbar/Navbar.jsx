@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import close from "../../assets/menu.svg";
 import open from "../../assets/close.svg";
 import logo from "../../assets/images/COLOR.RGB.png";
+import logo2 from "../../assets/images/BLANCO.png"
 import { Link } from "react-router-dom";
 import HambuergerMenu from "./HamburgerMenu";
 import { motion } from "framer-motion";
@@ -19,12 +20,15 @@ const navbarlist = {
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [navbarColor, setNavbarColor] = useState("bg-transparent text-black");
+  const [navbarLogo, setNavbarLogo ] = useState(logo)
 
   const handleScroll = () => {
     if (window.scrollY === 0) {
-      setNavbarColor("bg-transparent text-black");
+      setNavbarColor("bg-transparent text-[#fff]");
+      setNavbarLogo(logo2)
     } else {
-      setNavbarColor("bg-tertiary text-[#ffffff]"); // Reemplaza 'bg-custom' con tu clase de color personalizado
+      setNavbarColor("bg-[#fff] text-primary shadow-lg shadow-black "); // Reemplaza 'bg-custom' con tu clase de color personalizado
+      setNavbarLogo(logo)
     }
   };
 
@@ -40,12 +44,12 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`flex w-full justify-between fixed ${navbarColor} top-0 sm:py-2 z-30`}
+      className={`flex w-full justify-between fixed ${navbarColor} top-0 sm:py-2 z-30 `}
     >
       <div className="ml-2 ">
-        <img className='sm:w-64 w-1/2 my-2' src={logo} />
+        <img className='sm:w-64 w-1/2 my-2' src={navbarLogo} />
       </div>
-      <div className="w-[50%] justify-around sm:flex hidden items-center font-bold text-[#fff]">
+      <div className="w-[50%] justify-around sm:flex hidden items-center font-bold ">
         <Link
           className="my-2"
           to="/"

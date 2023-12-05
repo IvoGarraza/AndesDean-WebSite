@@ -87,7 +87,7 @@ const Projects = () => {
         <HowWeWork></HowWeWork>
       </div>
       <div className="w-full flex items-center justify-center">
-        <h3 className="font-bold text-primary py-12 text-2xl">Some of the projects we work on</h3>
+        <h3 className="font-bold text-primary py-12 text-2xl">Some of the projects we've worked on</h3>
       </div>
       <div ref={ref} className="grid sm:grid-cols-3 sm:grid-rows-2 grid-cols-1 gap-4 px-6 my-12">
         {projects.map((project, index) => (

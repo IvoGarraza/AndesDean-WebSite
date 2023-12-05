@@ -33,7 +33,7 @@ export const exploreWorlds = [
     {
       id: 'world-4',
       imgUrl: how4,
-      title: 'Projects Execution',
+      title: 'Project Execution',
       description:`During this phase, we mobilize the project team, allocate resources
       effectively, and closely monitor project progress to ensure adherence
       to the project plan. Our dedicated team manages and coordinates

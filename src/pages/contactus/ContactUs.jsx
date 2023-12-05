@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
           <div className=" w-full flex flex-col items-center p-12 pt-0 ">
             <div className="flex sm:flex-row flex-col justify-center items-center w-full text-[#fff] ">
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center ">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 mb-2 items-center justify-center ">
                 {/* <img className="w-16 border-black" src={arg}></img> */}
                 <div className="flex flex-col font-semibold text-center text-xs">
                   <div className="flex flex-row items-center justify-center ">
@@ -39,7 +39,7 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center">
+              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 mb-2 items-center justify-center">
                 {/* <img className="w-16" src={usa}></img> */}
                 <div className="flex flex-col font-semibold text-center items-center text-xs">
                   <div className="flex flex-row items-center">
@@ -67,7 +67,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <h3 className="text-center font-bold mb-4 text-primary text-4xl">REQUEST A PROPOSAL</h3>
+          <h3 className="text-center font-bold mb-4 text-primary text-4xl">Request a quote</h3>
           <div class="p-4 sm:w-full w-full items-center flex flex-col ">
             <form id="contact_form" className="flex sm:flex-row flex-col w-full justify-between p-2">
               <div class="flex flex-col sm:w-1/2 w-full">

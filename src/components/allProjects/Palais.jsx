@@ -18,7 +18,7 @@ const Palais = () => {
         <span className="font-bold text-secondary mb-6 text-center">
           STRUCTURAL CALCULATIONS
         </span>
-        <p className="font-medium">
+        <p className="font-medium ">
           This project comprises{" "}
           <span className="font-bold">
             four three-story residential buildings.

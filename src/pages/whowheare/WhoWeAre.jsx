@@ -20,7 +20,7 @@ const WhoWeAre = () => {
           </h3>
         </div>
       </div>
-      <div className="flex sm:flex-row flex-col items-center justify-center my-8">
+      <div className="flex sm:flex-row flex-col items-center justify-around my-8">
         <div className="py-6 sm:w-[40%] px-6 sm:px-0">
           <h3 className="font-bold text-primary text-4xl text-center mb-12">
             Meet our CEO
@@ -42,7 +42,7 @@ const WhoWeAre = () => {
           </p>
         </div>
         <div className="sm:w-[30%] px-4 flex flex-col items-center justify-center mb-6">
-          <img className="w-4/5 sm:w-80" src={diego}></img>
+          <img className="w-4/5 sm:w-80 grayscale hover:grayscale-0" src={diego}></img>
           <div className="flex flex-col text-justify items-center my-2">
             <span className="font-bold">DIEGO DEAN</span>
             <span className="font-medium">FOUNDER & CEO</span>
@@ -55,9 +55,9 @@ const WhoWeAre = () => {
             Meet the team
           </h3>
           <span className="font-bold text-xl text-primary my-6 px-6 text-center">
-            Together we soar higher: the mighty team of andes dean engineering
+            Together we soar higher: The mighty team of Andes Dean Engineering
           </span>
-          <span className="text-justify px-6 font-medium">
+          <span className="text-justify px-0 font-medium ">
             At Andes Dean we are 3 dynamic team of professionals dedicated to
             delivering successful projects worldwide. With expertise in advanced
             technology and collaboration, we provide comprehensive project
