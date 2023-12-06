@@ -20,22 +20,22 @@ const Hero = () => {
             ENGINEERING STUDIO
           </span>
         </div>
-        <div>
-          <p className="font-medium text-justify sm:text-xl text-lg px-4 my-4">
+        <div className="z-10">
+          <p className="font-medium text-justify sm:text-xl text-lg px-4 my-4 ">
             Discover the world of Andes Dean Engineering, where project delivery
             meets unmatched expertise.
           </p>
         </div>
         <div className="my-4">
           <Link to="/contactus" className="w-44">
-            <a className="bg-primary px-4 py-2 w- 44 rounded-md text-[#ffffff] font-medium mx-2 hover:bg-secondary ">
+            <a className="bg-primary px-4 py-2 w- 44 rounded-md text-[#ffffff] font-medium mx-2 transition-all hover:bg-secondary ">
               Contact Us
             </a>
           </Link>
 
           <a
             href="#content"
-            className=" bg-secondary px-4 py-2 w-44 rounded-md text-[#ffffff] mx-2 font-medium hover:bg-primary hover:text-[#ffffff]"
+            className=" bg-secondary px-4 py-2 w-44 rounded-md text-[#ffffff] mx-2 font-medium transition-all hover:bg-primary hover:text-[#ffffff]"
           >
             Learn more
           </a>

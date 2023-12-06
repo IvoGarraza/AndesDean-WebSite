@@ -128,9 +128,9 @@ const Why = () => {
             At Andes Dean Engineering, we are committed to elevating values to
             new heights.
             <br />
-            Our unwavering dedication to{" "}
+            Our unwavering dedication{" "}
             <span className="font-bold">
-              responsibility, quality, teamwork and innovation
+            teamwork, attention to details, responsibility and fast-learning
             </span>{" "}
             forms the foundation of our work, ensuring that we deliver <br />{" "}
             engineering solutions that surpass expectations and drive positive

@@ -21,7 +21,7 @@ const WhoWeAre = () => {
         </div>
       </div>
       <div className="flex sm:flex-row flex-col items-center justify-around my-8">
-        <div className="py-6 sm:w-[40%] px-6 sm:px-0">
+        <div className="py-6 sm:w-1/2 px-6 sm:px-0">
           <h3 className="font-bold text-primary text-4xl text-center mb-12">
             Meet our CEO
           </h3>
@@ -50,7 +50,7 @@ const WhoWeAre = () => {
         </div>
       </div>
       <div className="flex flex-col sm:flex-row items-center justify-around my-6">
-        <div className="sm:w-[40%] w-full flex flex-col items-center">
+        <div className="sm:w-1/2 w-full flex flex-col items-center">
           <h3 className="font-bold text-4xl text-primary my-2">
             Meet the team
           </h3>
@@ -68,7 +68,7 @@ const WhoWeAre = () => {
             empower stakeholders to achieve their project goals with confidence.
           </span>
         </div>
-        <div className="sm:w-1/3 mx-2">
+        <div className="sm:w-2/5 mx-2">
           <Team></Team>
         </div>
       </div>

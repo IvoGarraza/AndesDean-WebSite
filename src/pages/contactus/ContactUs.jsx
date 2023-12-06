@@ -34,8 +34,8 @@ const ContactUs = () => {
                     <span>Argentina</span>
                   </div>
                   <div className="flex flex-row items-center">
-                    <img src={Phone} />
-                    <a href="tel:1234567890">+5493513886585</a>
+                    {/* <img src={Phone} /> */}
+                    <a href="tel:1234567890">+549 351 3886585</a>
                   </div>
                 </div>
               </div>
@@ -47,8 +47,8 @@ const ContactUs = () => {
                     <span>United States</span>
                   </div>
                   <div className="flex flex-row items-center">
-                    <img src={Phone} />
-                    <a href="tel:1234567890">+14078152416</a>
+                    {/* <img src={Phone} /> */}
+                    <a href="tel:1234567890">+140 78152416</a>
                   </div>
                 </div>
               </div>
@@ -60,8 +60,8 @@ const ContactUs = () => {
                     <span>Italy</span>
                   </div>
                   <div className="flex flex-row items-center">
-                    <img src={Phone} />
-                    <a href="tel:1234567890">+393463578343</a>
+                    {/* <img src={Phone} /> */}
+                    <a href="tel:1234567890">+39 3463578343</a>
                   </div>
                 </div>
               </div>

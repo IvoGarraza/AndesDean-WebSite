@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div class="container">
       <div class="wrap my-2 flex flex-row w-full justify-between h-1/5">
-        <div class="rotate-90 text-primary flex items-center justify-center w-1/6 h-100">
+        <div class="rotate-0 text-primary flex items-center justify-center w-1/6 h-100">
           <span class="font-bold sm:text-sm h-100 text-xs flex text-center text-primary items-center justify-center">
             ROCKIES TEAM
             <br />
@@ -27,7 +27,7 @@ const Team = () => {
         </div>
       </div>
       <div class="wrap2 my-2 flex flex-row w-full justify-between h-2/5">
-        <div class="rotate-90 text-primary flex w-1/6 h-100">
+        <div class="rotate-0 text-primary flex w-1/6 h-100">
           <span class="font-bold sm:text-sm text-xs flex flex-col text-center text-secondary items-center justify-center h-full w-full">
             ANDES TEAM
             <br /> Argentina Projects
@@ -62,7 +62,7 @@ const Team = () => {
         </div>
       </div>
       <div class="wrap my-0 w-full flex flex-row justify-between h-1/5 mb-2">
-        <div class="rotate-90 text-primary flex w-1/6">
+        <div class="rotate-0 text-primary flex w-1/6">
           <span class="font-bold sm:text-sm text-xs flex flex-col text-center items-center justify-center ">
             OPERATIONS &<br />
             BUSSINES DEV.
@@ -85,12 +85,10 @@ const Team = () => {
         </div>
       </div>
       <div class="wrap flex flex-row justify-between  h-1/5">
-        <div class="rotate-90 text-secondary w-1/6">
+        <div class="rotate-0 text-secondary w-1/6">
           <span className="font-bold">UBICUO</span>
-          <span class="font-medium sm:text-sm text-xs mt-1 flex flex-col text-center">
-            
-            For the AEC Technologies
-            
+          <span class="font-medium sm:text-sm text-xs mt-1 flex flex-col text-center">            
+            For the AEC Technologies            
           </span>
         </div>
         <div class="colorbar2 w-[10px]  bg-secondary"></div>
