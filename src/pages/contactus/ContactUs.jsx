@@ -48,7 +48,7 @@ const ContactUs = () => {
                   </div>
                   <div className="flex flex-row items-center">
                     {/* <img src={Phone} /> */}
-                    <a href="tel:1234567890">+140 78152416</a>
+                    <a href="tel:1234567890">+1 407 8152416</a>
                   </div>
                 </div>
               </div>
