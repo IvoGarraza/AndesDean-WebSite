@@ -19,8 +19,8 @@ const navbarlist = {
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [navbarColor, setNavbarColor] = useState("bg-transparent text-black");
-  const [navbarLogo, setNavbarLogo ] = useState(logo)
+  const [navbarColor, setNavbarColor] = useState("bg-transparent text-[#fff]");
+  const [navbarLogo, setNavbarLogo ] = useState(logo2)
 
   const handleScroll = () => {
     if (window.scrollY === 0) {
