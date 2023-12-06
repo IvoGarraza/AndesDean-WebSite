@@ -26,10 +26,10 @@ const ContactUs = () => {
           </div>
           <div className=" w-full flex flex-col items-center p-12 pt-0 ">
             <div className="flex sm:flex-row flex-col justify-center items-center w-full text-[#fff] ">
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 mb-2 items-center justify-center ">
+              <div className="flex flex-row sm:w-[20%] w-full rounded-full sm:mx-2 sm:py-2 py-1 mb-2 items-center justify-center ">
                 {/* <img className="w-16 border-black" src={arg}></img> */}
-                <div className="flex flex-col font-semibold text-center text-xs">
-                  <div className="flex flex-row items-center justify-center ">
+                <div className="bg-secondary rounded-full p-2 px-8 flex flex-col font-semibold text-center text-xs">
+                  <div className="flex flex-row items-center justify-center mb-2">
                     <img src={Location} />
                     <span>Argentina</span>
                   </div>
@@ -39,10 +39,10 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 mb-2 items-center justify-center">
+              <div className="flex flex-row sm:w-[20%] w-full rounded-full sm:mx-2 sm:py-2 py-1 mb-2 items-center justify-center">
                 {/* <img className="w-16" src={usa}></img> */}
-                <div className="flex flex-col font-semibold text-center items-center text-xs">
-                  <div className="flex flex-row items-center">
+                <div className="bg-secondary rounded-full p-2 px-8 flex flex-col font-semibold text-center items-center text-xs">
+                  <div className="flex flex-row items-center mb-2">
                     <img src={Location} />
                     <span>United States</span>
                   </div>
@@ -52,10 +52,10 @@ const ContactUs = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-row sm:w-[20%] w-full bg-secondary rounded-full sm:mx-4 sm:py-2 py-1 items-center justify-center">
+              <div className="flex flex-row sm:w-[20%] w-full  rounded-full sm:mx-2 sm:py-2 py-1 items-center justify-center">
                 {/* <img className="w-16" src={italy}></img> */}
-                <div className="flex flex-col font-semibold text-center items-center text-xs">
-                  <div className="flex flex-row items-center">
+                <div className="bg-secondary rounded-full p-2 px-8 flex flex-col font-semibold text-center items-center text-xs">
+                  <div className="flex flex-row items-center mb-2">
                     <img src={Location} />
                     <span>Italy</span>
                   </div>

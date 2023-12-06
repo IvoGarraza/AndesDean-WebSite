@@ -85,25 +85,25 @@ const Team = () => {
         </div>
       </div>
       <div class="wrap flex flex-row justify-between  h-1/5">
-        <div class="rotate-0 text-secondary w-1/6">
-          <span className="font-bold">UBICUO</span>
+        <div class="rotate-0 text-center text-secondary w-1/6">
           <span class="font-medium sm:text-sm text-xs mt-1 flex flex-col text-center">            
-            For the AEC Technologies            
+            For the AEC Technologies           
           </span>
+          <span className="font-bold">UBICUO</span>
         </div>
         <div class="colorbar2 w-[10px]  bg-secondary"></div>
         <div class="imageContainer2 flex flex-row justify-around w-4/5 h-full items-center grayscale hover:grayscale-0">
           <div class="m-2">
-            <img src="https://ca.slack-edge.com/T42HA9JJF-U5CTK8ZKJ-f55173f0a867-512" />
+            <img src="https://ca.slack-edge.com/T42HA9JJF-U5DK88GFN-ad547219404a-512" />
           </div>
           <div class="m-2">
-            <img src="https://ca.slack-edge.com/T42HA9JJF-U05217UU4AZ-4efa633d4627-512" />
+            <img src="https://ca.slack-edge.com/T42HA9JJF-U5CTK8ZKJ-f55173f0a867-512" />
           </div>
           <div class="m-2">
             <img src="https://ca.slack-edge.com/T42HA9JJF-UPTMQUY8N-a0adaa100732-512" />
           </div>
           <div class="m-2">
-            <img src="https://ca.slack-edge.com/T42HA9JJF-U5DK88GFN-ad547219404a-512" />
+            <img src="https://ca.slack-edge.com/T42HA9JJF-U05217UU4AZ-4efa633d4627-512" />
           </div>
         </div>
       </div>
