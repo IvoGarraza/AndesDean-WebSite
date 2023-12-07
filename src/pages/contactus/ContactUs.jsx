@@ -56,7 +56,7 @@ const ContactUs = () => {
                 {/* <img className="w-16" src={italy}></img> */}
                 <div className="bg-secondary rounded-full p-2 px-8 flex flex-col font-semibold text-center items-center text-xs">
                   <div className="flex flex-row items-center mb-2">
-                    <img src={Location} />
+                    <img src={Location} className=""/>
                     <span>Italy</span>
                   </div>
                   <div className="flex flex-row items-center">
@@ -131,7 +131,7 @@ const ContactUs = () => {
             </form>
               <button
                 type="submit"
-                class="bg-primary w-1/3 rounded-md py-2 text-[#fff] font-semibold"
+                class="bg-primary hover:bg-secondary transition-all w-1/3 rounded-md py-2 text-[#fff] font-semibold"
               >
                 Send
               </button>

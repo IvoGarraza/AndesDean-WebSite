@@ -3,6 +3,7 @@ import bulletPoint from "../../assets/images/Recursos/PNG/logo-sin fondo.png";
 import "./Why.css";
 import { motion, useInView } from "framer-motion";
 import gif from "../../assets/images/Imagenes/gif.gif";
+import ValuesComponent from "./ValuesComponent/ValuesComponent";
 
 const squareVariants = {
   visible: { opacity: 1, scale: 4, x: 0, transition: { duration: 1 } },
@@ -115,28 +116,7 @@ const Why = () => {
             </span>
           </div>
         </div>
-        <div
-          /*           initial={{ x: 1000 }}
-          animate={isInView ? { x: 0 } : { x: 1000 }}
-          transition={{ duration: 0.4 }} */
-          id="ourvalues"
-          className="p-6 pl-8 py-16 my-8 w-full text-[#ffffff] text-end"
-        >
-          <h3 className="font-bold text-4xl">Our values</h3>
-          <br />
-          <span>
-            At Andes Dean Engineering, we are committed to elevating values to
-            new heights.
-            <br />
-            Our unwavering dedication{" "}
-            <span className="font-bold">
-            teamwork, attention to details, responsibility and fast-learning
-            </span>{" "}
-            forms the foundation of our work, ensuring that we deliver <br />{" "}
-            engineering solutions that surpass expectations and drive positive
-            impact.
-          </span>
-        </div>
+          <ValuesComponent></ValuesComponent>
       </div>
     </div>
   );
