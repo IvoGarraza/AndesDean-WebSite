@@ -18,12 +18,12 @@ function App() {
     <div className="App font-OpenSans ">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/whoweare' element={<WhoWeAre/>}></Route>
-        <Route path='/whyandes' element={<WhyAndes/>}></Route>
-        <Route path='/services' element={<Services/>}></Route>
-        <Route path='/projects' element={<Projects/>}></Route>
-        <Route path='/contactus' element={<ContactUs/>}></Route>
+        <Route exact path='/' element={<Home/>}></Route>
+        <Route exact path='/whoweare' element={<WhoWeAre/>}></Route>
+        <Route exact path='/whyandes' element={<WhyAndes/>}></Route>
+        <Route exact path='/services' element={<Services/>}></Route>
+        <Route exact path='/projects' element={<Projects/>}></Route>
+        <Route exact path='/contactus' element={<ContactUs/>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
