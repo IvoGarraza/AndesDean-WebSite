@@ -3,6 +3,7 @@ import styles from "./styles";
 import { fadeIn } from "./utils";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import React from "react";
 
 const ExploreCard = ({
   id,

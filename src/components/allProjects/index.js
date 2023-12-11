@@ -17,7 +17,7 @@ export const projects = [
         location:'Midvale, Utah, US',
         period:'2022',
         team:'Andes Dean and Partners',
-        component:<CocaCola/>,
+       /*  component:<CocaCola/>, */
         img:palais
     },
     {
@@ -26,7 +26,7 @@ export const projects = [
         location:'Utah and Wyoming',
         period:'2021',
         team:'Andes Dean and Partners',
-        component:<CustomHomes/>,
+        /* component:<CustomHomes/>, */
         img:custom
     },
     {
@@ -35,7 +35,7 @@ export const projects = [
         location:'Córdoba, Argentina',
         period:'2020',
         team:'Andes Dean and Partners',
-        component:<HousingDelParque/>,
+      /*   component:<HousingDelParque/>, */
         img: housing
     },
     {
@@ -44,7 +44,7 @@ export const projects = [
         location:'Córdoba, Argentina',
         perid:'2018',
         team:'Andes Dean and Partners',
-        component:<CocaCola/>,
+       /*  component:<CocaCola/>, */
         img: coca
     },
     {
@@ -53,7 +53,7 @@ export const projects = [
         location:'Houston, Texas, US',
         period:'2011',
         team:'WSP Engeneering',
-        component:<GablesRiversOaks/>,
+       /*  component:<GablesRiversOaks/>, */
         img: gables
     },
     {
@@ -62,7 +62,7 @@ export const projects = [
         location:'Mezquite, Nevada, US',
         period:'2007',
         team:'Pulte Homes Nevada',
-        component:<SunCityMesquite/>,
+       /*  component:<SunCityMesquite/>, */
         img: suncity
     }
 ]

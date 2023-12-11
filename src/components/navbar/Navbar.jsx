@@ -4,7 +4,7 @@ import open from "../../assets/close.svg";
 import logo from "../../assets/images/COLOR.RGB.png";
 import logo2 from "../../assets/images/BLANCO.png"
 import { Link } from "react-router-dom";
-import HambuergerMenu from "./HamburgerMenu";
+/* import HambuergerMenu from "./HamburgerMenu.jsx"; */
 import { motion } from "framer-motion";
 
 const variants = {
