@@ -11,6 +11,7 @@ import Projects from './pages/projects/Projects';
 import ContactUs from './pages/contactus/ContactUs';
 import WhyAndes from './pages/Why/Why';
 import React from 'react';
+import Test from './components/tests/Test';
 
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/services' element={<Services/>}></Route>
         <Route exact path='/projects' element={<Projects/>}></Route>
         <Route exact path='/contactus' element={<ContactUs/>}></Route>
+        <Route exact path='/test' element={<Test></Test>}></Route>
       </Routes>
       <Footer></Footer>
     </div>

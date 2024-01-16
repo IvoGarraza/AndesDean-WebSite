@@ -17,7 +17,7 @@ const Content = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center w-full px-4 py-6"
+      className="flex flex-col items-center justify-center w-full px-16 py-6"
       id="content"
     >
       <div className="pb-4">

@@ -22,7 +22,7 @@ const MissionComponent = () => {
       <div className="pr-6 my-6 font-semibold">
         <div className="flex flex-row my-6 items-center">
           <img src={bulletPoint} className="w-6"></img>
-          <span className="font-bold text-primary">APPLIED TECHNOLOGIES</span>
+          <span className="font-bold text-[#fff]">APPLIED TECHNOLOGIES</span>
         </div>
         <span>
           <li>
@@ -33,7 +33,7 @@ const MissionComponent = () => {
         </span>
         <div className="flex flex-row my-6 items-center">
           <img src={bulletPoint} className="w-6"></img>
-          <span className="font-bold text-primary">INNOVATIONS</span>
+          <span className="font-bold text-[#fff]">INNOVATIONS</span>
         </div>
         <span>
           <li>
@@ -43,7 +43,7 @@ const MissionComponent = () => {
         </span>
         <div className="flex flex-row my-6 items-center">
           <img src={bulletPoint} className="w-6"></img>
-          <span className="font-bold text-primary">PROJECT MANAGEMENT</span>
+          <span className="font-bold text-[#fff]">PROJECT MANAGEMENT</span>
         </div>
         <span>
           <li>
