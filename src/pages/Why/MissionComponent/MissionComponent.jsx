@@ -9,7 +9,7 @@ const MissionComponent = () => {
     animate={isInView ? { x: 0 } : { x: -1000 }}
     transition={{ duration: 0.4 }} */
       id="ourmission"
-      className="p-6 pr-8 py-16 my-4 w-full sm:pr-48 text-[#ffffff] "
+      className="p-6 pr-8 py-16 px-12 my-4 w-full sm:pr-48 text-[#ffffff] "
     >
       <h3 className="font-bold text-4xl">Our mission</h3>
       <br />
