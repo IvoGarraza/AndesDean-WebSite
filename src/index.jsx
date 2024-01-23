@@ -3,14 +3,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter  } from "react-router-dom";//se reemplazo BrowserRouter por HashRouter para resolver el problema de las rutas "not Found"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter >
       <App />
-    </BrowserRouter>
+    </HashRouter >
   </React.StrictMode>
 );
 
