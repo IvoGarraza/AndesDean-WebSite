@@ -37,10 +37,10 @@ const Services = () => {
             <div class="servicesContainer px-4">
               <div class="itemsWrap grid sm:grid-cols-5 sm:grid-rows-2 grid-cols-2 grid-flow-row  grid-rows-5 text-[#ffffff] font-bold justify-items-center ">
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Structural Design</h4>
+                  <h4>Structural Engineering</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200,delay:0.100}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>BIM Management</h4>
+                  <h4>BIM Modeling</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.200}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
                   <h4>MEP Engineering</h4>
@@ -49,21 +49,20 @@ const Services = () => {
                   <h4>3D Visualization</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.400}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Desingn Development</h4>
+                  <h4>SD, DD and CD Document Production</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.100}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Contruction Documents</h4>
+                  <h4>Project Management Support</h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.200}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
                   <h4>
-                    Composition and <br />
+                    QTO and <br />
                     Listing of Materials
                   </h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.300}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
                   <h4>
-                    Projects and <br />
-                    Technical Management
+                    Staff Aumengtation
                   </h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.400}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
@@ -73,7 +72,7 @@ const Services = () => {
                   </h4>
                 </motion.div>
                 <motion.div initial={{opacity:0}} animate={isInView?{opacity:1}:{opacity:0}} transition={{duration:0.200, delay:0.500}} class="items bg-primary rounded-md shadow-md shadow-nav sm:h-24 sm:w-64 h-24 w-40 m-2 p-2 items-center flex justify-center text-center hover:bg-secondary">
-                  <h4>Professional Training</h4>
+                  <h4>Shop Drawings Production</h4>
                 </motion.div>
               </div>
             </div>
