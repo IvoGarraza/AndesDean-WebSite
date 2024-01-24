@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
 import Footer from './components/footer/Footer';
-import { Link, Route, Routes } from 'react-router-dom'
+import { HashRouter as Link, Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home';
 import WhoWeAre from './pages/whowheare/WhoWeAre';
 import Services from './pages/services/Services';
