@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import map from "../../assets/images/map.png";
 import mapa from "../../assets/images/Recursos/MAPA.png";
 import arg from "../../assets/argentina.png";
@@ -9,7 +9,17 @@ import Phone from "../../assets/headset.png";
 import Linkedin from "../../assets/linkedin.png";
 import mail from "../../assets/email.png";
 
-const ContactUs = () => {
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
+
   return (
     <div>
       <div className="flex sm:flex-row flex-col-reverse my-2 items-center relative p-4">
@@ -96,7 +106,8 @@ const ContactUs = () => {
             </h3>
             <form
               id="contact_form"
-              className="flex sm:flex-row flex-col w-full justify-between items-center p-2"
+              className="flex flex-col w-full justify-between items-center p-2"
+              ref={form} onSubmit={sendEmail}
             >
               <div class="flex flex-col p-12 w-full">
                 <div class="mb-2">
@@ -106,7 +117,7 @@ const ContactUs = () => {
                   <input
                     class="rounded border-gray-400 w-full p-2"
                     type="text"
-                    name="name"
+                    name="user_name"
                     id="name_field"
                   />
                 </div>
@@ -128,7 +139,7 @@ const ContactUs = () => {
                   <input
                     class="rounded border-gray-400 w-full p-2"
                     type="email"
-                    name="email"
+                    name="user_email"
                     id="email_field"
                   />
                 </div>
@@ -138,8 +149,6 @@ const ContactUs = () => {
                   </label>
                   <input
                     class="rounded border-gray-400 w-full p-2"
-                    type="email"
-                    name="email"
                     id="email_field"
                   />
                 </div>
@@ -155,18 +164,19 @@ const ContactUs = () => {
                   ></textarea>
                 </div>
               </div>
-            </form>
             <button
               type="submit"
+              value='Send'
               class="bg-primary hover:bg-secondary transition-all w-1/3 rounded-md py-2 text-[#fff] font-semibold"
             >
               Send
             </button>
+            </form>
           </div>
         </div>
       </div>
     </div>
   );
-};
+
 
 export default ContactUs;
